@@ -1,46 +1,105 @@
-# Enterprise Customer Data Quality Pipeline using AWS
+# 🚀 Enterprise Customer Data Quality Pipeline using AWS
 
-## Project Overview
-
-This project demonstrates an end-to-end cloud-based data quality pipeline developed using Amazon Web Services (AWS).
-
-The objective was to understand how customer data can be ingested, cataloged, queried, and validated using AWS analytics services while applying Data Stewardship principles such as data quality validation, duplicate detection, metadata management, and SQL-based reporting.
-
----
-
-## Business Scenario
-
-A company receives customer master data from multiple business units.
-
-Before this data is used for analytics, reporting, or downstream systems, it must be validated to ensure accuracy, completeness, and consistency.
-
-This project simulates that process using AWS.
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Amazon S3](https://img.shields.io/badge/Amazon-S3-red)
+![AWS Glue](https://img.shields.io/badge/AWS-Glue-blue)
+![Amazon Athena](https://img.shields.io/badge/Amazon-Athena-green)
+![SQL](https://img.shields.io/badge/SQL-Athena-yellow)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
-## AWS Services Used
+# 📌 Project Overview
 
-| AWS Service | Purpose |
-|-------------|----------|
-| Amazon S3 | Store raw customer dataset |
+This project demonstrates an end-to-end cloud-based data quality pipeline built using Amazon Web Services (AWS).
+
+The objective was to understand how structured customer data can be ingested, cataloged, queried, and validated using AWS analytics services while applying Data Stewardship concepts such as metadata management, duplicate detection, missing value analysis, and SQL-based data validation.
+
+---
+
+# 🎯 Business Scenario
+
+Organizations receive customer master data from multiple business systems.
+
+Before this data is consumed by reporting or analytics teams, it must be validated for:
+
+- Duplicate records
+- Missing mandatory fields
+- Invalid values
+- Metadata consistency
+- Business rule compliance
+
+This project simulates that workflow using AWS.
+
+---
+
+# ☁️ AWS Services Used
+
+| Service | Purpose |
+|----------|---------|
+| Amazon S3 | Store customer dataset |
 | AWS Glue | Discover schema |
-| Glue Data Catalog | Store metadata |
+| AWS Glue Crawler | Create metadata |
+| AWS Glue Data Catalog | Store metadata |
 | Amazon Athena | Query data using SQL |
-| IAM | Secure service permissions |
+| IAM | Manage service permissions |
 
 ---
 
-## Architecture
+# 🏗 Project Architecture
 
-![Architecture](architecture/architecture.png)
+![Architecture](architecture.png)
+
+Workflow
+
+```
+Customer CSV
+      │
+      ▼
+ Amazon S3
+      │
+      ▼
+ AWS Glue Crawler
+      │
+      ▼
+ Glue Data Catalog
+      │
+      ▼
+ Amazon Athena
+      │
+      ▼
+ SQL Data Quality Validation
+```
 
 ---
 
-## Data Quality Checks
+# 📂 Dataset
+
+Customer Master Dataset containing fields such as:
+
+- Customer_ID
+- First_Name
+- Last_Name
+- Email
+- Phone
+- Country
+- State
+- City
+- Join_Date
+- Status
+- Customer_Type
+- Revenue
+- Credit_Score
+
+The dataset intentionally contains several data quality issues to simulate real-world validation scenarios.
+
+---
+
+# 🔍 Data Quality Checks Performed
 
 ✔ Duplicate Customer IDs
 
-✔ Duplicate Emails
+✔ Duplicate Email Addresses
 
 ✔ Missing Email Validation
 
@@ -48,48 +107,169 @@ This project simulates that process using AWS.
 
 ✔ Invalid Revenue Detection
 
-✔ Revenue Analysis
+✔ Customer Distribution Analysis
 
-✔ Customer Distribution
+✔ Revenue by Customer Type
 
-✔ Credit Score Analysis
+✔ Average Credit Score
 
 ---
 
-## SQL Concepts
+# 💻 SQL Skills Demonstrated
 
 - SELECT
-
 - WHERE
-
 - GROUP BY
-
 - HAVING
-
 - COUNT()
-
 - SUM()
-
 - AVG()
-
 - COALESCE()
 
 ---
 
-## Folder Structure
+# 📊 Sample SQL Queries
 
-(Repository structure)
+## Total Records
+
+```sql
+SELECT COUNT(*) AS total_records
+FROM customer_raw_data;
+```
 
 ---
 
-## Learning Outcomes
+## Duplicate Customer IDs
 
-- Built an end-to-end AWS analytics workflow.
+```sql
+SELECT customer_id,
+COUNT(*) AS duplicate_count
+FROM customer_raw_data
+GROUP BY customer_id
+HAVING COUNT(*)>1;
+```
 
-- Learned AWS Glue Crawlers and Data Catalog.
+---
 
-- Queried cloud-hosted datasets using Amazon Athena.
+## Missing Emails
 
-- Applied SQL for data validation.
+```sql
+SELECT *
+FROM customer_raw_data
+WHERE email IS NULL;
+```
 
-- Implemented Data Stewardship concepts using cloud services.
+---
+
+## Revenue by Customer Type
+
+```sql
+SELECT
+COALESCE(customer_type,'Missing') AS customer_type,
+SUM(revenue) AS total_revenue
+FROM customer_raw_data
+GROUP BY COALESCE(customer_type,'Missing');
+```
+
+---
+
+# 📸 Project Screenshots
+
+## Amazon S3
+
+Add screenshot here
+
+---
+
+## AWS Glue Database
+
+Add screenshot here
+
+---
+
+## AWS Glue Crawler
+
+Add screenshot here
+
+---
+
+## AWS Glue Table
+
+Add screenshot here
+
+---
+
+## Amazon Athena Query
+
+Add screenshot here
+
+---
+
+## Duplicate Detection
+
+Add screenshot here
+
+---
+
+## Missing Email Validation
+
+Add screenshot here
+
+---
+
+## Revenue Analysis
+
+Add screenshot here
+
+---
+
+# 📈 Learning Outcomes
+
+Through this project I gained practical exposure to:
+
+- Amazon S3
+- AWS Glue Crawlers
+- AWS Glue Data Catalog
+- Amazon Athena
+- SQL on Cloud Data
+- Metadata Management
+- Data Validation
+- Data Quality Analysis
+
+---
+
+# 🚀 Future Improvements
+
+- Amazon QuickSight Dashboard
+- Automated ETL using AWS Glue Jobs
+- Data Quality Score Dashboard
+- Scheduled Data Validation Pipeline
+- CloudWatch Monitoring
+- EventBridge Automation
+
+---
+
+# 📁 Repository Structure
+
+```
+aws-customer-data-quality-pipeline
+
+│
+├── README.md
+├── LICENSE
+├── customer_master.csv
+├── architecture.png
+└── screenshots/
+```
+
+---
+
+# 👨‍💻 Author
+
+**Sai Vivek**
+
+Data Analyst | SQL | AWS | Data Quality | Data Stewardship
+
+---
+
+# ⭐ If you found this project useful, consider giving it a Star.
