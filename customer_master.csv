@@ -1,0 +1,501 @@
+Customer_ID,First_Name,Last_Name,Email,Phone,Country,State,City,Join_Date,Status,Customer_Type,Revenue,Credit_Score
+1000,Arjun,Reddy,arjun.reddy1000@example.com,9043321819,India,Tamil Nadu,Chennai,2021-03-07,Active,Retail,35666.47,758
+1001,Aarav,Das,aarav.das1001@example.com,9386379402,India,Tamil Nadu,Chennai,2022-11-28,Active,Retail,143624.75,622
+1002,Sai,Reddy,sai.reddy1002@example.com,9615594078,India,Telangana,Hyderabad,2023-02-15,Active,Corporate,124581.29,766
+1003,Kiran,Joshi,kiran.joshi1003@example.com,9310341316,India,Maharashtra,Pune,2023-07-18,Active,Corporate,25235.46,631
+1004,Ananya,Rao,ananya.rao1004@example.com,9192832764,India,Delhi,New Delhi,2022-03-26,Active,Retail,35128.16,466
+1005,Kiran,Nair,kiran.nair1005@example.com,9413953767,India,Karnataka,Bengaluru,2022-06-27,Active,SME,84643.85,584
+1006,Neha,Joshi,neha.joshi1006@example.com,9696532871,India,Telangana,Hyderabad,2021-08-13,Active,Retail,119019.83,666
+1007,Meera,Reddy,meera.reddy1007@example.com,9669784801,India,Delhi,New Delhi,2022-07-01,Active,Corporate,17621.27,672
+1008,Priya,Gupta,priya.gupta1008@example.com,9048281489,India,Karnataka,Bengaluru,2021-11-10,Active,Retail,81367.48,848
+1009,Vivek,Sharma,vivek.sharma1009@example.com,9957015430,India,Karnataka,Bengaluru,2024-03-07,Inactive,Retail,110054.23,867
+1010,Sai,Das,sai.das1010@example.com,9227824896,India,Karnataka,Bengaluru,2024-01-10,Active,SME,30971.51,609
+1011,Rohit,Singh,rohit.singh1011@example.com,9787133150,India,Delhi,New Delhi,2024-02-09,Active,Retail,2071.44,812
+1012,Arjun,Sharma,arjun.sharma1012@example.com,9310518347,India,Karnataka,Bengaluru,2024-01-10,Active,SME,86855.54,574
+1013,Sneha,Nair,sneha.nair1013@example.com,9311656670,India,Telangana,Hyderabad,2021-05-05,Active,Corporate,120288.28,505
+1014,Ananya,Verma,ananya.verma1014@example.com,9387262473,India,Telangana,Hyderabad,2023-06-27,Inactive,SME,15588.4,783
+1015,Vivek,Sharma,vivek.sharma1015@example.com,9132677360,India,Karnataka,Bengaluru,2023-02-16,Active,Corporate,40515.26,851
+1016,Sneha,Rao,sneha.rao1016@example.com,9687234309,India,Delhi,New Delhi,2021-05-05,Active,Retail,8471.21,694
+1017,Vivek,Das,vivek.das1017@example.com,9208121913,India,Tamil Nadu,Chennai,2021-09-03,Inactive,SME,37686.09,754
+1018,Aarav,Joshi,aarav.joshi1018@example.com,9169985435,India,Karnataka,Bengaluru,2022-06-28,Active,SME,97179.62,684
+1019,Kiran,Reddy,kiran.reddy1019@example.com,9079911838,India,Maharashtra,Pune,2021-09-29,Inactive,Retail,132011.27,639
+1020,Rahul,Patel,rahul.patel1020@example.com,9784980841,India,Karnataka,Bengaluru,2022-06-26,Active,Retail,111620.09,529
+1021,Rahul,Rao,rahul.rao1021@example.com,9935348740,India,Telangana,Hyderabad,2024-07-23,Active,Corporate,7568.93,620
+1022,Priya,Rao,priya.rao1022@example.com,9278680112,India,Delhi,New Delhi,2021-03-15,Inactive,SME,83326.24,670
+1023,Priya,Sharma,priya.sharma1023@example.com,9450533158,India,Tamil Nadu,Chennai,2024-06-25,Active,Retail,129826.25,859
+1024,Priya,Nair,priya.nair1024@example.com,9025634216,India,Telangana,Hyderabad,2023-08-22,Active,Corporate,53099.11,870
+1025,Ananya,Verma,ananya.verma1025@example.com,9036541458,India,Tamil Nadu,Chennai,2024-10-23,Inactive,SME,50341.33,464
+1026,Sai,Rao,sai.rao1026@example.com,9294019655,India,Tamil Nadu,Chennai,2024-05-26,Inactive,Retail,58394.12,745
+1027,Ananya,Rao,ananya.rao1027@example.com,9060883561,India,Maharashtra,Pune,2024-06-30,Active,Retail,108243.39,603
+1028,Vivek,Rao,vivek.rao1028@example.com,9656482366,India,Karnataka,Bengaluru,2024-06-14,Active,Corporate,82642.64,450
+1029,Rahul,Rao,rahul.rao1029@example.com,9369957773,India,Delhi,New Delhi,2023-08-28,Active,SME,26284.02,493
+1030,Rahul,Das,rahul.das1030@example.com,9951343320,India,Telangana,Hyderabad,2022-05-17,Inactive,SME,127610.92,487
+1031,Sneha,Nair,sneha.nair1031@example.com,9936763201,India,Tamil Nadu,Chennai,2022-03-25,Active,SME,78175.7,475
+1032,Vivek,Verma,vivek.verma1032@example.com,9172788957,India,Delhi,New Delhi,2023-10-31,Active,SME,67441.13,531
+1033,Neha,Gupta,neha.gupta1033@example.com,9743487347,India,Telangana,Hyderabad,2022-08-09,Active,Corporate,48636.73,726
+1034,Sai,Patel,sai.patel1034@example.com,9236231665,India,Delhi,New Delhi,2023-08-13,Active,Retail,125100.78,649
+1035,Meera,Sharma,meera.sharma1035@example.com,9967054668,India,Delhi,New Delhi,2024-05-20,Inactive,Corporate,33693.82,673
+1036,Sneha,Sharma,sneha.sharma1036@example.com,9656272980,India,Tamil Nadu,Chennai,2024-04-27,Active,Retail,13508.17,669
+1037,Priya,Gupta,priya.gupta1037@example.com,9204653755,India,Tamil Nadu,Chennai,2022-07-24,Active,Corporate,38588.46,491
+1038,Sneha,Sharma,,9805310033,India,Telangana,Hyderabad,2024-06-26,Active,Retail,71560.6,508
+1039,Meera,Verma,meera.verma1039@example.com,9745299124,India,Telangana,Hyderabad,2024-03-31,Active,Corporate,86793.71,642
+1040,Rohit,Verma,rohit.verma1040@example.com,9193149190,India,Maharashtra,Pune,2023-12-28,Active,Corporate,11274.55,781
+1041,Kiran,Sharma,kiran.sharma1041@example.com,9671657262,India,Delhi,New Delhi,2024-08-25,Active,SME,116421.58,688
+1042,Rohit,Joshi,rohit.joshi1042@example.com,9453147379,India,Delhi,New Delhi,2024-09-30,Active,Retail,74651.67,616
+1043,Priya,Gupta,priya.gupta1043@example.com,9354549480,India,Delhi,New Delhi,2022-01-27,Active,SME,61557.79,734
+1044,Ananya,Gupta,ananya.gupta1044@example.com,9770143634,India,Delhi,New Delhi,2023-01-26,Active,SME,52219.85,831
+1045,Vivek,Singh,vivek.singh1045@example.com,9574443135,India,Telangana,Hyderabad,2024-01-03,Inactive,SME,28587.33,560
+1046,Neha,Gupta,neha.gupta1046@example.com,9498941343,India,Maharashtra,Pune,2022-01-03,Active,SME,80586.13,590
+1047,Aarav,Sharma,aarav.sharma1047@example.com,9842710947,India,Tamil Nadu,Chennai,2023-06-22,Active,Retail,38619.28,891
+1048,Sneha,Reddy,sneha.reddy1048@example.com,9167190229,India,Maharashtra,Pune,2021-06-24,Inactive,Retail,84152.88,663
+1049,Meera,Joshi,meera.joshi1049@example.com,9938677496,India,Maharashtra,Pune,2024-03-10,Active,SME,144056.21,500
+1050,Ananya,Verma,ananya.verma1050@example.com,9412328120,India,Tamil Nadu,Chennai,2023-07-12,Active,Corporate,44397.63,568
+1051,Rahul,Rao,rahul.rao1051@example.com,9713493618,India,Karnataka,Bengaluru,2024-08-19,Active,Corporate,124168.04,486
+1052,Aarav,Patel,aarav.patel1052@example.com,9499471746,India,Maharashtra,Pune,2023-10-22,Active,Corporate,12985.84,470
+1053,Rohit,Singh,rohit.singh1053@example.com,9940139904,India,Delhi,New Delhi,2021-03-24,Active,Retail,71104.62,783
+1054,Sneha,Rao,sneha.rao1054@example.com,9296717565,India,Maharashtra,Pune,2024-10-04,Active,Retail,50140.75,805
+1055,Sneha,Rao,sneha.rao1055@example.com,9680715451,India,Tamil Nadu,Chennai,2023-11-20,Inactive,Retail,98991.4,727
+1056,Sneha,Nair,sneha.nair1056@example.com,9038597703,India,Maharashtra,Pune,2024-01-30,Active,Corporate,66279.3,807
+1057,Sneha,Reddy,sneha.reddy1057@example.com,9093248086,India,Telangana,Hyderabad,2022-04-06,Inactive,Retail,69755.74,510
+1058,Arjun,Patel,arjun.patel1058@example.com,,India,Delhi,New Delhi,2021-10-24,Active,SME,76727.89,900
+1059,Priya,Reddy,priya.reddy1059@example.com,9465840449,India,Delhi,New Delhi,2024-09-13,Active,Retail,67535.56,697
+1060,Kiran,Singh,kiran.singh1060@example.com,9886753396,India,Karnataka,Bengaluru,2023-04-22,Active,SME,71473.46,865
+1061,Rohit,Nair,rohit.nair1061@example.com,9270289517,India,Telangana,Hyderabad,2023-12-14,Inactive,Retail,108644.13,659
+1062,Arjun,Patel,arjun.patel1062@example.com,9174596158,India,Tamil Nadu,Chennai,2022-10-11,Active,Corporate,130985.07,468
+1063,Meera,Reddy,meera.reddy1063@example.com,9343161172,India,Maharashtra,Pune,2021-03-01,Active,Retail,44711.8,641
+1064,Rohit,Patel,rohit.patel1064@example.com,9386922219,India,Tamil Nadu,Chennai,2024-06-23,Active,Corporate,137011.52,523
+1065,Ananya,Gupta,ananya.gupta1065@example.com,9474074821,India,Tamil Nadu,Chennai,2022-12-09,Inactive,Corporate,96201.87,667
+1066,Neha,Rao,neha.rao1066@example.com,9743671369,India,Maharashtra,Pune,2024-03-23,Active,SME,44989.38,874
+1067,Arjun,Nair,arjun.nair1067@example.com,9409097439,India,Maharashtra,Pune,2022-03-25,Active,SME,38343.39,836
+1068,Neha,Patel,neha.patel1068@example.com,9104709521,India,Maharashtra,Pune,2022-11-01,Active,Retail,30918.42,852
+1069,Vivek,Singh,vivek.singh1069@example.com,9884247451,India,Tamil Nadu,Chennai,2021-06-04,Active,Retail,129160.95,820
+1070,Arjun,Nair,arjun.nair1070@example.com,9851604817,India,Maharashtra,Pune,2024-10-09,Active,Corporate,88099.45,871
+1071,Arjun,Singh,arjun.singh1071@example.com,9137098593,India,Telangana,Hyderabad,2024-07-25,Inactive,SME,46026.34,659
+1072,Sai,Patel,sai.patel1072@example.com,9004711382,India,Tamil Nadu,Chennai,2023-07-19,Active,SME,104776.11,726
+1073,Rohit,Joshi,rohit.joshi1073@example.com,9261796405,India,Karnataka,Bengaluru,2023-06-28,Active,Retail,-5000.0,500
+1074,Arjun,Singh,arjun.singh1074@example.com,9850643171,India,Karnataka,Bengaluru,2024-08-07,Active,Retail,8536.2,620
+1075,Ananya,Patel,ananya.patel1075@example.com,9931839335,India,Karnataka,Bengaluru,2024-05-05,Active,Retail,148141.57,726
+1076,Rahul,Patel,rahul.patel1076@example.com,9102053950,India,Karnataka,Bengaluru,2022-06-28,Active,SME,63723.12,508
+1077,Neha,Reddy,neha.reddy1077@example.com,9775891783,India,Delhi,New Delhi,2021-03-30,Active,SME,78696.23,684
+1078,Arjun,Sharma,arjun.sharma1078@example.com,9076617711,India,Maharashtra,Pune,2024-05-30,Active,Retail,41977.38,774
+1079,Meera,Das,meera.das1079@example.com,9569847896,India,Telangana,Hyderabad,2021-08-23,Inactive,SME,131778.23,732
+1080,Neha,Verma,neha.verma1080@example.com,9673657661,India,Maharashtra,Pune,2023-05-25,Active,Corporate,56770.85,528
+1081,Arjun,Gupta,arjun.gupta1081@example.com,9111161528,India,Telangana,Hyderabad,2024-04-16,Inactive,SME,50117.25,512
+1082,Rohit,Singh,rohit.singh1082@example.com,9604945198,India,Karnataka,Bengaluru,2021-11-13,Active,Retail,127243.95,629
+1083,Vivek,Singh,vivek.singh1083@example.com,9149368998,India,Telangana,Hyderabad,2024-06-01,Inactive,SME,40849.71,542
+1084,Rahul,Rao,rahul.rao1084@example.com,9550229612,India,Telangana,Hyderabad,2021-07-07,Active,Retail,57052.97,682
+1085,Kiran,Patel,kiran.patel1085@example.com,9545991022,India,Delhi,New Delhi,2021-04-12,Active,Corporate,67023.83,667
+1086,Sneha,Joshi,sneha.joshi1086@example.com,9764381561,India,Maharashtra,Pune,2024-10-20,Active,Corporate,79513.18,607
+1087,Aarav,Verma,aarav.verma1087@example.com,9690034324,India,Maharashtra,Pune,2022-11-03,Active,Corporate,112305.1,539
+1088,Priya,Nair,invalid_email,9838851606,India,Telangana,Hyderabad,2023-07-31,Inactive,Corporate,86788.11,743
+1089,Rohit,Nair,rohit.nair1089@example.com,9416052975,India,Telangana,Hyderabad,2023-06-14,Inactive,Retail,65915.8,655
+1090,Vivek,Reddy,vivek.reddy1090@example.com,9645352181,India,Delhi,New Delhi,2023-11-11,Active,Corporate,53313.86,869
+1091,Arjun,Patel,arjun.patel1091@example.com,9312432921,India,Karnataka,Bengaluru,2024-07-10,Active,SME,114221.7,679
+1092,Arjun,Joshi,arjun.joshi1092@example.com,9955271774,India,Maharashtra,Pune,2024-04-26,Active,SME,12054.41,686
+1093,Sneha,Sharma,sneha.sharma1093@example.com,9054119986,India,Tamil Nadu,Chennai,2024-04-03,Active,SME,134485.64,680
+1094,Meera,Verma,meera.verma1094@example.com,9597820715,India,Telangana,Hyderabad,2023-10-31,Active,Retail,37913.81,674
+1095,Sneha,Das,sneha.das1095@example.com,9892554665,India,Delhi,New Delhi,2021-04-18,Active,SME,50862.75,618
+1096,Sai,Das,sai.das1096@example.com,9644925192,India,Maharashtra,Pune,2022-09-28,Inactive,SME,99658.14,516
+1097,Meera,Reddy,meera.reddy1097@example.com,9486528168,India,Maharashtra,Pune,2021-02-07,Active,Retail,142724.23,624
+1098,Sneha,Verma,sneha.verma1098@example.com,9322141888,India,Telangana,Hyderabad,2024-09-17,Active,SME,20526.31,642
+1099,Priya,Patel,priya.patel1099@example.com,9292706537,India,Delhi,New Delhi,2022-08-07,Active,Corporate,35866.44,572
+1100,Rahul,Gupta,rahul.gupta1100@example.com,9359774688,India,Tamil Nadu,Chennai,2021-11-28,Inactive,SME,21621.38,578
+1101,Aarav,Gupta,aarav.gupta1101@example.com,9581814124,India,Tamil Nadu,Chennai,2023-11-18,Active,Corporate,14665.32,563
+1102,Sneha,Singh,sneha.singh1102@example.com,9060685361,India,Maharashtra,Pune,2022-04-05,Active,Retail,126037.27,782
+1103,Kiran,Patel,kiran.patel1103@example.com,9204727790,India,Telangana,Hyderabad,2021-02-08,Active,Retail,82771.83,822
+1104,Meera,Das,meera.das1104@example.com,9614341036,India,Delhi,New Delhi,2023-07-26,Active,Corporate,89914.12,458
+1105,Arjun,Das,arjun.das1105@example.com,9932460953,India,Delhi,New Delhi,2023-05-04,Active,SME,13756.48,634
+1106,Sai,Das,sai.das1106@example.com,9888806706,India,Maharashtra,Pune,2022-06-04,Active,Corporate,118489.48,626
+1107,Ananya,Reddy,ananya.reddy1107@example.com,9952058527,India,Tamil Nadu,Chennai,2024-07-17,Active,Retail,10401.98,847
+1108,Sneha,Sharma,sneha.sharma1108@example.com,9430305486,India,Delhi,New Delhi,2023-08-28,Active,SME,29474.41,632
+1109,Aarav,Singh,aarav.singh1109@example.com,9415667652,India,Tamil Nadu,Chennai,2023-10-16,Active,SME,40741.38,492
+1110,Neha,Nair,neha.nair1110@example.com,9169284511,India,Maharashtra,Pune,2024-09-15,Active,Corporate,90790.62,668
+1111,Priya,Gupta,priya.gupta1111@example.com,9570596401,India,Tamil Nadu,Chennai,2023-01-15,Active,SME,102232.18,465
+1112,Priya,Joshi,priya.joshi1112@example.com,9702135569,India,Telangana,Hyderabad,2024-05-24,Active,Corporate,142374.71,640
+1113,Sneha,Reddy,sneha.reddy1113@example.com,9928565431,India,Telangana,Hyderabad,2022-01-17,Active,Corporate,137117.83,510
+1114,Rahul,Rao,rahul.rao1114@example.com,9739473121,India,Tamil Nadu,Chennai,2021-12-20,Inactive,Corporate,149592.1,864
+1115,Arjun,Singh,arjun.singh1115@example.com,9518844225,India,Delhi,New Delhi,2022-04-05,Active,Retail,119017.79,571
+1116,Sneha,Sharma,sneha.sharma1116@example.com,9589578291,India,Telangana,Hyderabad,2022-09-26,Active,SME,108111.58,719
+1117,Rohit,Nair,rohit.nair1117@example.com,9912517785,India,Karnataka,Bengaluru,2024-02-04,Active,Retail,115399.46,516
+1118,Rohit,Das,,9018242253,India,Maharashtra,Pune,2023-11-29,Inactive,Retail,38340.19,775
+1119,Vivek,Rao,vivek.rao1119@example.com,9249818299,India,Karnataka,Bengaluru,2021-12-17,Active,SME,135398.13,622
+1120,Meera,Sharma,meera.sharma1120@example.com,9010943969,India,Telangana,Hyderabad,2023-10-17,Inactive,SME,44161.08,604
+1121,Sneha,Verma,sneha.verma1121@example.com,9647102767,India,Tamil Nadu,Chennai,2022-02-22,Active,Retail,47574.79,817
+1122,Kiran,Singh,kiran.singh1122@example.com,9625881537,India,Telangana,Hyderabad,2022-07-02,Active,Retail,15424.94,598
+1123,Rohit,Joshi,rohit.joshi1123@example.com,9632595327,India,Delhi,New Delhi,2023-08-15,Active,Corporate,75108.17,496
+1124,Rohit,Das,rohit.das1124@example.com,9733950047,India,Delhi,New Delhi,2024-09-01,Active,Corporate,80966.92,883
+1125,Sai,Nair,sai.nair1125@example.com,9245650609,India,Delhi,New Delhi,2022-02-03,Active,Corporate,11956.23,708
+1126,Sneha,Das,sneha.das1126@example.com,9499121655,India,Delhi,New Delhi,2023-01-19,Active,Retail,90766.98,655
+1127,Vivek,Sharma,vivek.sharma1127@example.com,9002578729,India,Delhi,New Delhi,2021-10-14,Active,SME,48460.97,651
+1128,Meera,Rao,meera.rao1128@example.com,9958887947,India,Telangana,Hyderabad,2023-01-25,Active,Retail,147004.81,748
+1129,Rahul,Sharma,rahul.sharma1129@example.com,9974993097,India,Karnataka,Bengaluru,2023-12-10,Active,SME,116416.31,644
+1130,Priya,Verma,priya.verma1130@example.com,9091307562,India,Tamil Nadu,Chennai,2022-02-22,Active,SME,138157.62,896
+1131,Neha,Sharma,neha.sharma1131@example.com,9283857865,India,Karnataka,Bengaluru,2023-07-31,Inactive,Corporate,82394.71,796
+1132,Neha,Rao,neha.rao1132@example.com,9973348434,India,Maharashtra,Pune,2022-03-01,Active,Corporate,48239.07,628
+1133,Vivek,Rao,vivek.rao1133@example.com,9419866524,India,Telangana,Hyderabad,2022-08-13,Inactive,Retail,52608.16,676
+1134,Arjun,Rao,arjun.rao1134@example.com,9733848421,India,Delhi,New Delhi,2024-04-16,Active,Retail,100805.26,721
+1135,Ananya,Verma,ananya.verma1135@example.com,9016571208,India,Karnataka,Bengaluru,2023-04-14,Active,Corporate,72139.83,552
+1136,Rahul,Singh,rahul.singh1136@example.com,9401938026,India,Karnataka,Bengaluru,2021-03-16,Inactive,Corporate,118406.13,545
+1137,Neha,Rao,neha.rao1137@example.com,9004991547,India,Delhi,New Delhi,2023-12-10,Active,Retail,127807.9,689
+1138,Rahul,Verma,rahul.verma1138@example.com,9152742054,India,Delhi,New Delhi,2024-10-13,Active,Retail,92032.22,777
+1139,Rohit,Nair,rohit.nair1139@example.com,9851612275,India,Karnataka,Bengaluru,2021-01-14,Active,Retail,67563.59,586
+1140,Kiran,Rao,kiran.rao1140@example.com,9990453017,India,Maharashtra,Pune,2021-11-24,Active,SME,138542.8,810
+1141,Rahul,Reddy,rahul.reddy1141@example.com,9459332727,India,Delhi,New Delhi,2023-02-05,Active,SME,137006.74,837
+1142,Vivek,Verma,vivek.verma1142@example.com,9391878519,India,Telangana,Hyderabad,2021-05-07,Inactive,SME,31121.36,724
+1143,Priya,Patel,priya.patel1143@example.com,9587139718,India,Tamil Nadu,Chennai,2021-04-24,Active,SME,62898.26,738
+1144,Aarav,Das,aarav.das1144@example.com,9740640391,India,Telangana,Hyderabad,2023-05-18,Active,Retail,81633.36,480
+1145,Sai,Gupta,sai.gupta1145@example.com,9046226567,India,Tamil Nadu,Chennai,2023-02-09,Active,SME,131308.5,518
+1146,Arjun,Singh,arjun.singh1146@example.com,9128682300,India,Maharashtra,Pune,2023-08-07,Active,SME,64195.08,644
+1147,Ananya,Verma,ananya.verma1147@example.com,9752431069,India,Telangana,Hyderabad,2022-05-08,Active,Retail,89497.68,678
+1148,Meera,Sharma,meera.sharma1148@example.com,9306738302,India,Delhi,New Delhi,2022-08-16,Active,SME,86840.44,745
+1148,Meera,Singh,meera.singh1149@example.com,9342836440,India,Delhi,New Delhi,2024-04-26,Inactive,Retail,94272.98,668
+1150,Vivek,Gupta,vivek.gupta1150@example.com,9056856624,India,Tamil Nadu,Chennai,2022-01-12,Active,Corporate,36904.26,565
+1151,Rahul,Patel,rahul.patel1151@example.com,9708668826,India,Karnataka,Bengaluru,2022-06-07,Active,SME,12781.49,680
+1152,Kiran,Reddy,kiran.reddy1152@example.com,9830469901,India,Karnataka,Bengaluru,2024-04-18,Active,SME,33335.46,556
+1153,Kiran,Rao,kiran.rao1153@example.com,9033173936,India,Karnataka,Bengaluru,2024-02-05,Active,Corporate,57718.6,723
+1154,Arjun,Singh,arjun.singh1154@example.com,9445877175,India,Karnataka,Bengaluru,2023-01-30,Active,Retail,84816.18,563
+1155,Neha,Patel,neha.patel1155@example.com,9048996423,India,Maharashtra,Pune,2022-04-17,Active,Retail,75395.92,785
+1156,Arjun,Singh,arjun.singh1156@example.com,9477725228,India,Tamil Nadu,Chennai,2022-01-12,Inactive,SME,148558.21,480
+1157,Vivek,Sharma,vivek.sharma1157@example.com,9100623120,India,Karnataka,Bengaluru,2023-11-02,Active,Retail,93057.45,791
+1158,Meera,Gupta,meera.gupta1158@example.com,9700886008,India,Maharashtra,Pune,2024-01-03,Inactive,Retail,75830.19,807
+1159,Arjun,Nair,arjun.nair1159@example.com,9211823398,India,Maharashtra,Pune,2022-12-27,Active,Corporate,12773.87,657
+1160,Sneha,Joshi,sneha.joshi1160@example.com,9334101666,India,Delhi,New Delhi,2023-09-02,Active,Retail,105723.93,492
+1161,Sneha,Nair,sneha.nair1161@example.com,9591803397,India,Maharashtra,Pune,2021-04-06,Inactive,SME,138912.14,728
+1162,Meera,Sharma,meera.sharma1162@example.com,9250392614,India,Karnataka,Bengaluru,2024-02-29,Active,Corporate,101878.21,726
+1163,Kiran,Nair,kiran.nair1163@example.com,9218501631,India,Maharashtra,Pune,2024-05-24,Active,SME,60108.75,846
+1164,Kiran,Sharma,kiran.sharma1164@example.com,9477358662,India,Delhi,New Delhi,2024-09-15,Active,SME,45011.54,576
+1165,Neha,Reddy,neha.reddy1165@example.com,9142626551,India,Telangana,Hyderabad,2021-01-11,Inactive,Corporate,54627.71,588
+1166,Sai,Patel,sai.patel1166@example.com,9126788861,India,Telangana,Hyderabad,2021-07-03,Active,Retail,89941.76,851
+1167,Kiran,Nair,kiran.nair1167@example.com,9046618398,India,Karnataka,Bengaluru,2023-02-19,Active,Corporate,45868.56,702
+1168,Priya,Reddy,priya.reddy1168@example.com,9264647154,India,Karnataka,Bengaluru,2024-07-04,Active,SME,30136.69,504
+1169,Priya,Rao,priya.rao1169@example.com,9065965756,India,Delhi,New Delhi,2021-10-06,Active,SME,142144.56,552
+1170,Sneha,Singh,sneha.singh1170@example.com,9265479356,India,Maharashtra,Pune,2023-03-16,Active,SME,30770.21,729
+1171,Priya,Das,priya.das1171@example.com,9073741672,India,Maharashtra,Pune,2022-05-11,Active,Retail,107570.22,854
+1172,Rohit,Reddy,rohit.reddy1172@example.com,9797968868,India,Telangana,Hyderabad,2023-01-07,Active,SME,89479.17,493
+1173,Sai,Verma,sai.verma1173@example.com,9529096561,India,Telangana,Hyderabad,2021-07-21,Active,SME,112281.1,735
+1174,Meera,Joshi,meera.joshi1174@example.com,9375679825,India,Telangana,Hyderabad,2023-09-16,Active,Corporate,138161.58,493
+1175,Sai,Patel,sai.patel1175@example.com,9545738757,India,Telangana,Hyderabad,2023-06-17,Active,Corporate,48517.51,603
+1176,Aarav,Reddy,aarav.reddy1176@example.com,9051238282,India,Maharashtra,Pune,2024-02-21,Active,Corporate,35546.48,657
+1177,Arjun,Patel,arjun.patel1177@example.com,9266093796,India,Tamil Nadu,Chennai,2021-01-10,Active,Retail,42473.38,810
+1178,Sai,Joshi,sai.joshi1178@example.com,,India,Tamil Nadu,Chennai,2023-12-17,Inactive,Corporate,89948.65,762
+1179,Rohit,Joshi,rohit.joshi1179@example.com,9155792499,India,Telangana,Hyderabad,2024-10-08,Active,Retail,36547.34,509
+1180,Priya,Singh,priya.singh1180@example.com,9286692966,India,Karnataka,Bengaluru,2023-09-24,Active,SME,137954.99,538
+1181,Vivek,Patel,vivek.patel1181@example.com,9742257905,India,Telangana,Hyderabad,2023-09-20,Active,Corporate,144610.53,708
+1182,Arjun,Gupta,arjun.gupta1182@example.com,9676772190,India,Karnataka,Bengaluru,2022-08-22,Active,Retail,81103.68,536
+1183,Sneha,Joshi,sneha.joshi1183@example.com,9788191485,India,Delhi,New Delhi,2021-03-27,Active,Corporate,82406.64,667
+1184,Sai,Verma,sai.verma1184@example.com,9407451713,India,Karnataka,Bengaluru,2024-04-19,Active,SME,91929.01,669
+1185,Priya,Joshi,priya.joshi1185@example.com,9233095849,India,Delhi,New Delhi,2021-12-11,Active,SME,44602.57,743
+1186,Rahul,Das,rahul.das1186@example.com,9126042232,India,Maharashtra,Pune,2022-05-22,Active,SME,59512.41,522
+1187,Meera,Rao,meera.rao1187@example.com,9667116845,India,Tamil Nadu,Chennai,2023-09-27,Active,Retail,130467.26,883
+1188,Neha,Reddy,neha.reddy1188@example.com,9751863637,India,Maharashtra,Pune,2022-10-24,Inactive,Corporate,82549.27,516
+1189,Meera,Gupta,meera.gupta1189@example.com,9500170127,India,Tamil Nadu,Chennai,2021-01-02,Inactive,Corporate,31145.41,802
+1190,Priya,Rao,priya.rao1190@example.com,9241541520,India,Tamil Nadu,Chennai,2024-07-05,Active,SME,113529.59,669
+1191,Arjun,Reddy,arjun.reddy1191@example.com,9103712938,India,Tamil Nadu,Chennai,2021-01-20,Active,Corporate,122749.25,890
+1192,Rohit,Patel,rohit.patel1192@example.com,9713611155,India,Maharashtra,Pune,2021-10-08,Active,Retail,96594.85,796
+1193,Priya,Reddy,priya.reddy1193@example.com,9890927532,India,Tamil Nadu,Chennai,2024-06-15,Active,Retail,13916.52,501
+1194,Priya,Reddy,priya.reddy1194@example.com,9965652341,India,Karnataka,Bengaluru,2024-02-08,Active,SME,91531.37,848
+1195,Neha,Sharma,neha.sharma1195@example.com,9438983640,India,Karnataka,Bengaluru,2023-10-11,Active,Retail,75437.8,754
+1196,Sai,Das,sai.das1196@example.com,9055269658,India,Karnataka,Bengaluru,2023-08-23,Inactive,Retail,3486.72,484
+1197,Aarav,Rao,aarav.rao1197@example.com,9300684866,India,Tamil Nadu,Chennai,2021-06-18,Active,SME,92791.01,592
+1198,Sai,Rao,duplicate@example.com,9183285691,India,Maharashtra,Pune,2023-06-15,Active,Retail,9627.99,494
+1199,Rohit,Reddy,duplicate@example.com,9799042102,India,Telangana,Hyderabad,2021-12-02,Active,Corporate,78927.8,850
+1200,Neha,Rao,neha.rao1200@example.com,9252410564,India,Delhi,New Delhi,2021-05-11,Active,SME,94502.39,704
+1201,Sneha,Das,sneha.das1201@example.com,9507925241,India,Delhi,New Delhi,2024-10-12,Active,Retail,111376.21,451
+1202,Aarav,Sharma,aarav.sharma1202@example.com,9307562208,India,Tamil Nadu,Chennai,2022-04-05,Active,Corporate,137462.36,613
+1203,Rahul,Reddy,rahul.reddy1203@example.com,9951802380,India,Tamil Nadu,Chennai,2021-05-22,Inactive,Corporate,116255.59,609
+1204,Kiran,Reddy,kiran.reddy1204@example.com,9870534949,India,Karnataka,Bengaluru,2023-08-09,Active,Corporate,149670.28,847
+1205,Ananya,Das,ananya.das1205@example.com,9320603850,India,Maharashtra,Pune,2021-01-03,Active,Corporate,127501.89,822
+1206,Rahul,Reddy,rahul.reddy1206@example.com,9383670241,India,Telangana,Hyderabad,2022-04-20,Inactive,SME,62545.46,640
+1207,Sneha,Reddy,sneha.reddy1207@example.com,9918261990,India,Tamil Nadu,Chennai,2024-09-18,Inactive,Retail,44459.73,885
+1208,Kiran,Nair,kiran.nair1208@example.com,9557431329,India,Telangana,Hyderabad,2021-11-15,Active,Corporate,70442.21,658
+1209,Sai,Das,sai.das1209@example.com,9537474112,India,Maharashtra,Pune,2024-05-20,Active,Corporate,23100.25,814
+1210,Ananya,Singh,ananya.singh1210@example.com,9680442067,India,Delhi,New Delhi,2024-02-01,Active,Corporate,16184.19,856
+1211,Priya,Reddy,priya.reddy1211@example.com,9003236519,India,Delhi,New Delhi,2022-06-15,Inactive,Retail,4248.23,483
+1212,Ananya,Gupta,ananya.gupta1212@example.com,9215107029,India,Tamil Nadu,Chennai,2023-03-20,Active,Corporate,102798.72,538
+1213,Kiran,Verma,kiran.verma1213@example.com,9244720999,India,Karnataka,Bengaluru,2024-08-18,Active,Corporate,132534.01,695
+1214,Aarav,Reddy,aarav.reddy1214@example.com,9462638380,India,Tamil Nadu,Chennai,2023-01-06,Active,Corporate,52261.08,739
+1215,Vivek,Singh,vivek.singh1215@example.com,9642059304,India,Telangana,Hyderabad,2023-08-25,Active,SME,149941.26,531
+1216,Sai,Verma,sai.verma1216@example.com,9348039652,India,Karnataka,Bengaluru,2022-04-30,Active,SME,104946.36,752
+1217,Aarav,Singh,aarav.singh1217@example.com,9992937842,India,Tamil Nadu,Chennai,2021-03-19,Active,Retail,90647.76,460
+1218,Vivek,Gupta,vivek.gupta1218@example.com,9059325250,India,Telangana,Hyderabad,2021-10-30,Active,Retail,-5000.0,883
+1219,Vivek,Singh,vivek.singh1219@example.com,9156915452,India,Karnataka,Bengaluru,2023-06-14,Active,Corporate,97727.86,539
+1220,Neha,Das,neha.das1220@example.com,9953926442,India,Karnataka,Bengaluru,2021-01-04,Inactive,SME,59348.61,844
+1221,Meera,Sharma,meera.sharma1221@example.com,9295939172,India,Maharashtra,Pune,2021-06-09,Active,Corporate,26015.23,495
+1222,Neha,Singh,neha.singh1222@example.com,9704331541,India,Telangana,Hyderabad,2021-04-09,Active,SME,63528.33,535
+1223,Rohit,Gupta,rohit.gupta1223@example.com,9658617932,India,Tamil Nadu,Chennai,2021-05-31,Active,Retail,44941.38,613
+1224,Rahul,Reddy,rahul.reddy1224@example.com,9152621815,India,Delhi,New Delhi,2024-06-10,Inactive,SME,5617.99,784
+1225,Priya,Joshi,priya.joshi1225@example.com,9620153368,India,Delhi,New Delhi,2022-06-28,Active,Corporate,36394.69,475
+1226,Rohit,Joshi,rohit.joshi1226@example.com,9872050614,India,Delhi,New Delhi,2023-09-11,Active,Retail,31835.99,776
+1227,Rahul,Reddy,rahul.reddy1227@example.com,9714677418,India,Tamil Nadu,Chennai,2022-01-14,Active,Corporate,56040.85,678
+1228,Aarav,Rao,aarav.rao1228@example.com,9774349021,India,Telangana,Hyderabad,2024-09-30,Active,SME,62684.01,837
+1229,Meera,Verma,meera.verma1229@example.com,9806868793,India,Tamil Nadu,Chennai,2022-09-05,Active,SME,6174.55,742
+1230,Vivek,Joshi,vivek.joshi1230@example.com,9921722332,India,Telangana,Hyderabad,2023-05-18,Active,SME,65873.59,871
+1231,Arjun,Patel,arjun.patel1231@example.com,9945116868,India,Maharashtra,Pune,2022-07-20,Active,Retail,118196.05,769
+1232,Meera,Das,meera.das1232@example.com,9616229991,India,Telangana,Hyderabad,2024-02-27,Active,Corporate,130253.81,900
+1233,Kiran,Nair,kiran.nair1233@example.com,9467997024,India,Tamil Nadu,Chennai,2021-10-22,Active,SME,104355.53,469
+1234,Rohit,Singh,rohit.singh1234@example.com,9307450544,India,Maharashtra,Pune,2023-10-04,Inactive,SME,15634.39,894
+1235,Ananya,Patel,ananya.patel1235@example.com,9475469137,India,Karnataka,Bengaluru,2023-04-14,Active,SME,130211.16,870
+1236,Aarav,Das,aarav.das1236@example.com,9214862890,India,Karnataka,Bengaluru,2022-01-30,Inactive,Retail,125709.52,577
+1237,Aarav,Gupta,aarav.gupta1237@example.com,9053457861,India,Telangana,Hyderabad,2022-05-11,Active,SME,67469.41,895
+1238,Sneha,Joshi,sneha.joshi1238@example.com,9855241406,India,Telangana,Hyderabad,2021-11-30,Inactive,Retail,128709.57,781
+1239,Ananya,Verma,ananya.verma1239@example.com,9468007229,India,Telangana,Hyderabad,2022-04-04,Active,Corporate,107198.33,813
+1240,Arjun,Rao,arjun.rao1240@example.com,9665743748,India,Delhi,New Delhi,2023-03-25,Active,Retail,77215.54,789
+1241,Kiran,Das,kiran.das1241@example.com,9994417154,India,Maharashtra,Pune,2022-07-22,Active,SME,142875.98,783
+1242,Rahul,Verma,rahul.verma1242@example.com,9283096520,India,Tamil Nadu,Chennai,2022-08-29,Active,Corporate,61285.24,827
+1243,Aarav,Joshi,aarav.joshi1243@example.com,9935387584,India,Karnataka,Bengaluru,2024-09-08,Inactive,Retail,44773.82,691
+1244,Priya,Rao,priya.rao1244@example.com,9825135346,India,Maharashtra,Pune,2023-02-01,Active,Corporate,70100.33,510
+1245,Sneha,Sharma,sneha.sharma1245@example.com,9999173816,India,Delhi,New Delhi,2022-09-04,Active,Retail,21467.42,552
+1246,Kiran,Nair,kiran.nair1246@example.com,9972521752,India,Maharashtra,Pune,2024-07-23,Active,Corporate,41755.65,839
+1247,Priya,Joshi,priya.joshi1247@example.com,9271296666,India,Tamil Nadu,Chennai,2023-02-25,Active,SME,30712.72,641
+1248,Aarav,Singh,aarav.singh1248@example.com,9830033542,India,Telangana,Hyderabad,2023-02-25,Active,Corporate,25886.01,871
+1249,Aarav,Rao,aarav.rao1249@example.com,9478985625,India,Tamil Nadu,Chennai,2023-01-06,Active,Retail,142264.57,865
+1250,Rohit,Sharma,rohit.sharma1250@example.com,9332309821,India,Maharashtra,Pune,2024-08-25,Active,Corporate,131605.08,580
+1251,Vivek,Joshi,vivek.joshi1251@example.com,9090100167,India,Tamil Nadu,Chennai,2021-09-11,Active,Corporate,105578.36,555
+1252,Neha,Sharma,neha.sharma1252@example.com,9461849926,India,Telangana,Hyderabad,2023-11-14,Active,Retail,43123.31,851
+1253,Sai,Gupta,sai.gupta1253@example.com,9393483564,India,Karnataka,Bengaluru,2021-03-22,Active,Retail,103542.38,696
+1254,Kiran,Verma,kiran.verma1254@example.com,9001197218,India,Telangana,Hyderabad,2021-07-27,Inactive,SME,35442.88,601
+1255,Rahul,Gupta,rahul.gupta1255@example.com,9012045561,India,Telangana,Hyderabad,2021-04-04,Active,Retail,99839.9,537
+1256,Kiran,Singh,kiran.singh1256@example.com,9794155216,India,Tamil Nadu,Chennai,2023-07-24,Active,Corporate,103795.46,694
+1257,Rohit,Patel,rohit.patel1257@example.com,9120216979,India,Tamil Nadu,Chennai,2022-01-07,Active,Corporate,92092.4,891
+1258,Arjun,Patel,,9771670145,India,Telangana,Hyderabad,2024-10-20,Active,SME,86920.7,739
+1259,Ananya,Singh,ananya.singh1259@example.com,9889163756,India,Karnataka,Bengaluru,2024-02-18,Inactive,SME,9130.35,779
+1260,Priya,Das,priya.das1260@example.com,9772175354,India,Telangana,Hyderabad,2023-11-05,Active,SME,57417.0,868
+1261,Ananya,Reddy,ananya.reddy1261@example.com,9779717751,India,Tamil Nadu,Chennai,2024-08-31,Active,Corporate,62438.44,735
+1262,Vivek,Sharma,vivek.sharma1262@example.com,9199488375,India,Maharashtra,Pune,2021-04-22,Inactive,Corporate,50463.92,842
+1263,Meera,Joshi,meera.joshi1263@example.com,9757113055,India,Maharashtra,Pune,2024-01-27,Active,SME,16842.01,534
+1264,Sneha,Patel,sneha.patel1264@example.com,9614933163,India,Tamil Nadu,Chennai,2022-01-26,Active,Retail,113815.25,473
+1265,Arjun,Joshi,arjun.joshi1265@example.com,9177982708,India,Telangana,Hyderabad,2024-02-08,Inactive,SME,72956.86,710
+1266,Priya,Joshi,priya.joshi1266@example.com,9221699586,India,Tamil Nadu,Chennai,2024-06-01,Inactive,Retail,41765.79,625
+1267,Rahul,Gupta,rahul.gupta1267@example.com,9226984858,India,Karnataka,Bengaluru,2022-02-16,Active,SME,44296.34,626
+1268,Arjun,Patel,arjun.patel1268@example.com,9288515879,India,Delhi,New Delhi,2024-09-28,Active,SME,112432.44,880
+1269,Vivek,Rao,vivek.rao1269@example.com,9608106200,India,Karnataka,Bengaluru,2022-07-01,Active,Retail,147546.33,799
+1270,Rahul,Patel,rahul.patel1270@example.com,9043805719,India,Delhi,New Delhi,2022-04-05,Active,SME,58944.11,711
+1271,Neha,Rao,neha.rao1271@example.com,9066658004,India,Karnataka,Bengaluru,2024-06-24,Inactive,Corporate,124667.54,774
+1272,Neha,Singh,neha.singh1272@example.com,9989334721,India,Karnataka,Bengaluru,2021-12-22,Active,Retail,57202.54,669
+1273,Rahul,Das,rahul.das1273@example.com,9422940572,India,Telangana,Hyderabad,2021-11-11,Inactive,SME,8577.46,770
+1274,Meera,Rao,meera.rao1274@example.com,9798515832,India,Delhi,New Delhi,2021-05-20,Active,Retail,62973.76,724
+1275,Rohit,Reddy,rohit.reddy1275@example.com,9533555439,India,Delhi,New Delhi,2023-08-31,Inactive,SME,2311.75,792
+1276,Kiran,Gupta,kiran.gupta1276@example.com,9399305616,India,Maharashtra,Pune,2024-01-12,Active,Retail,136789.05,870
+1277,Kiran,Das,kiran.das1277@example.com,9877043581,India,Telangana,Hyderabad,2021-12-09,Inactive,SME,80447.67,770
+1278,Sai,Verma,sai.verma1278@example.com,9361386120,India,Tamil Nadu,Chennai,2022-11-11,Active,,9085.94,856
+1279,Rahul,Das,rahul.das1279@example.com,9193466766,India,Maharashtra,Pune,2021-02-04,Active,Retail,80690.32,778
+1280,Neha,Joshi,neha.joshi1280@example.com,9190158144,India,Delhi,New Delhi,2021-06-27,Active,Corporate,57830.62,870
+1281,Arjun,Sharma,arjun.sharma1281@example.com,9728326842,India,Maharashtra,Pune,2024-10-19,Inactive,SME,97543.15,455
+1282,Vivek,Das,vivek.das1282@example.com,9210099688,India,Telangana,Hyderabad,2022-09-17,Active,SME,135628.41,626
+1283,Ananya,Nair,ananya.nair1283@example.com,9822239431,India,Karnataka,Bengaluru,2024-10-06,Active,Retail,127856.77,731
+1284,Sneha,Das,sneha.das1284@example.com,9141413975,India,Maharashtra,Pune,2021-09-20,Active,Retail,15906.71,767
+1285,Sai,Verma,sai.verma1285@example.com,9577594929,India,Delhi,New Delhi,2023-01-17,Inactive,Corporate,26127.29,610
+1286,Ananya,Verma,ananya.verma1286@example.com,9645257775,India,Maharashtra,Pune,2023-09-25,Active,Retail,97187.19,491
+1287,Rahul,Patel,rahul.patel1287@example.com,9834110809,India,Delhi,New Delhi,2023-04-10,Active,Retail,136039.23,732
+1288,Rahul,Das,rahul.das1288@example.com,9872563942,India,Tamil Nadu,Chennai,2023-10-24,Active,Corporate,55215.97,455
+1289,Arjun,Verma,arjun.verma1289@example.com,9928272299,India,Karnataka,Bengaluru,2023-09-18,Inactive,Retail,33604.05,699
+1290,Ananya,Reddy,ananya.reddy1290@example.com,9453038567,India,Tamil Nadu,Chennai,2021-04-06,Active,SME,49286.6,810
+1291,Vivek,Rao,vivek.rao1291@example.com,9498926659,India,Telangana,Hyderabad,2023-11-25,Active,Retail,77939.4,630
+1292,Kiran,Gupta,kiran.gupta1292@example.com,9790827231,India,Delhi,New Delhi,2024-08-10,Active,Retail,28848.95,635
+1293,Meera,Reddy,meera.reddy1293@example.com,9365177739,India,Karnataka,Bengaluru,2024-08-18,Inactive,Retail,37306.88,515
+1294,Meera,Joshi,meera.joshi1294@example.com,9228092024,India,Karnataka,Bengaluru,2023-11-25,Inactive,SME,145417.31,776
+1295,Aarav,Rao,aarav.rao1295@example.com,9137977236,India,Delhi,New Delhi,2021-10-20,Active,Retail,93858.55,711
+1296,Rahul,Patel,rahul.patel1296@example.com,9579913662,India,Telangana,Hyderabad,2021-02-03,Active,SME,102970.81,873
+1297,Priya,Joshi,priya.joshi1297@example.com,9127990881,India,Telangana,Hyderabad,2023-09-15,Active,SME,81353.61,450
+1298,Arjun,Nair,arjun.nair1298@example.com,9865086376,India,Maharashtra,Pune,2024-04-21,Inactive,SME,86842.0,667
+1299,Priya,Rao,priya.rao1299@example.com,9731498643,India,Telangana,Hyderabad,2021-01-15,Active,Retail,78444.51,642
+1300,Arjun,Verma,arjun.verma1300@example.com,9565126944,India,Delhi,New Delhi,2023-05-18,Active,SME,42058.52,798
+1301,Rohit,Verma,rohit.verma1301@example.com,9688725887,India,Maharashtra,Pune,2022-09-21,Active,SME,60321.33,520
+1302,Arjun,Reddy,arjun.reddy1302@example.com,9372138658,India,Delhi,New Delhi,2021-04-17,Active,SME,1788.3,496
+1303,Priya,Gupta,priya.gupta1303@example.com,9961143519,India,Telangana,Hyderabad,2023-02-27,Inactive,Corporate,92480.87,716
+1304,Rahul,Joshi,rahul.joshi1304@example.com,9027703843,India,Telangana,Hyderabad,2024-05-12,Active,SME,35518.97,536
+1305,Arjun,Sharma,arjun.sharma1305@example.com,9530214656,India,Tamil Nadu,Chennai,2024-04-15,Active,Retail,110801.91,485
+1306,Sai,Das,sai.das1306@example.com,9489554393,India,Tamil Nadu,Chennai,2023-04-08,Active,Corporate,27080.18,709
+1307,Sai,Das,sai.das1307@example.com,9184518489,India,Maharashtra,Pune,2023-06-26,Inactive,SME,73060.85,574
+1308,Kiran,Gupta,kiran.gupta1308@example.com,9790714163,India,Karnataka,Bengaluru,2022-10-09,Active,Corporate,77959.13,454
+1309,Neha,Rao,neha.rao1309@example.com,9341651827,India,Maharashtra,Pune,2022-12-26,Active,SME,41092.29,832
+1310,Arjun,Verma,arjun.verma1310@example.com,9733343333,India,Delhi,New Delhi,2022-12-31,Active,Retail,18861.9,490
+1311,Arjun,Gupta,arjun.gupta1311@example.com,9908075957,India,Delhi,New Delhi,2022-07-17,Active,SME,42759.73,563
+1312,Meera,Patel,meera.patel1312@example.com,9086780856,India,Karnataka,Bengaluru,2023-07-26,Inactive,SME,78212.57,611
+1313,Neha,Sharma,neha.sharma1313@example.com,9036915594,India,Karnataka,Bengaluru,2024-01-29,Active,Corporate,71230.46,763
+1314,Kiran,Singh,kiran.singh1314@example.com,9276365564,India,Tamil Nadu,Chennai,2022-01-04,Active,SME,103215.77,866
+1315,Sai,Rao,sai.rao1315@example.com,9386632270,India,Karnataka,Bengaluru,2023-05-14,Active,SME,78034.04,818
+1316,Kiran,Gupta,kiran.gupta1316@example.com,9448906120,India,Karnataka,Bengaluru,2022-06-05,Active,SME,15348.98,831
+1317,Kiran,Rao,kiran.rao1317@example.com,9558845061,India,Maharashtra,Pune,2024-10-23,Inactive,Retail,86951.21,782
+1318,Arjun,Das,invalid_email,9245587716,India,Delhi,New Delhi,2022-08-10,Active,Retail,130370.39,777
+1319,Kiran,Nair,kiran.nair1319@example.com,9996112535,India,Maharashtra,Pune,2024-08-30,Active,Corporate,91202.36,652
+1320,Rahul,Gupta,rahul.gupta1320@example.com,9598762202,India,Karnataka,Bengaluru,2024-09-17,Active,SME,105403.84,490
+1321,Ananya,Patel,ananya.patel1321@example.com,9611178006,India,Delhi,New Delhi,2021-06-20,Active,SME,24135.88,785
+1322,Rohit,Rao,rohit.rao1322@example.com,9334722820,India,Telangana,Hyderabad,2024-09-20,Active,Corporate,129771.93,689
+1323,Vivek,Rao,vivek.rao1323@example.com,9872829979,India,Tamil Nadu,Chennai,2023-12-09,Active,SME,47139.54,627
+1324,Sneha,Das,sneha.das1324@example.com,9317456424,India,Telangana,Hyderabad,2021-01-01,Active,Retail,52238.85,690
+1325,Vivek,Sharma,vivek.sharma1325@example.com,9774064930,India,Delhi,New Delhi,2023-02-05,Active,SME,66128.85,577
+1326,Priya,Nair,priya.nair1326@example.com,9634163894,India,Maharashtra,Pune,2024-08-21,Active,Corporate,62522.68,886
+1327,Sai,Patel,sai.patel1327@example.com,9241797497,India,Karnataka,Bengaluru,2022-10-19,Active,Retail,145487.72,461
+1328,Priya,Reddy,priya.reddy1328@example.com,9442703120,India,Tamil Nadu,Chennai,2022-03-21,Active,Corporate,118073.08,705
+1329,Kiran,Gupta,kiran.gupta1329@example.com,9051204618,India,Tamil Nadu,Chennai,2022-01-07,Active,Corporate,122770.36,874
+1330,Aarav,Reddy,aarav.reddy1330@example.com,9367303718,India,Karnataka,Bengaluru,2023-08-27,Active,Corporate,140496.07,531
+1331,Arjun,Sharma,arjun.sharma1331@example.com,9881474350,India,Karnataka,Bengaluru,2021-08-20,Active,Corporate,49352.51,535
+1332,Rahul,Joshi,rahul.joshi1332@example.com,9163009792,India,Maharashtra,Pune,2021-07-03,Active,Corporate,14618.83,766
+1333,Kiran,Sharma,kiran.sharma1333@example.com,9052812735,India,Delhi,New Delhi,2024-08-13,Active,Corporate,110245.14,460
+1334,Neha,Nair,neha.nair1334@example.com,9524077848,India,Tamil Nadu,Chennai,2022-01-24,Active,SME,52802.04,824
+1335,Sneha,Rao,sneha.rao1335@example.com,9982182744,India,Delhi,New Delhi,2023-01-22,Active,SME,76387.7,825
+1336,Priya,Sharma,priya.sharma1336@example.com,9959351863,India,Delhi,New Delhi,2024-10-31,Active,SME,23965.6,594
+1337,Kiran,Nair,kiran.nair1337@example.com,9511810220,India,Karnataka,Bengaluru,2021-08-08,Active,Retail,5740.76,778
+1338,Rohit,Gupta,rohit.gupta1338@example.com,9899405391,India,Telangana,Hyderabad,2022-03-04,Active,Retail,70740.81,777
+1339,Aarav,Singh,aarav.singh1339@example.com,9865094801,India,Maharashtra,Pune,2021-06-09,Inactive,SME,15470.77,821
+1340,Ananya,Das,ananya.das1340@example.com,9633839288,India,Tamil Nadu,Chennai,2021-08-05,Active,SME,54336.54,684
+1341,Neha,Nair,neha.nair1341@example.com,9122868528,India,Delhi,New Delhi,2023-06-27,Inactive,Corporate,82962.12,616
+1342,Kiran,Nair,kiran.nair1342@example.com,9659398368,India,Maharashtra,Pune,2023-01-08,Inactive,Corporate,144013.84,450
+1343,Neha,Sharma,neha.sharma1343@example.com,9490824043,India,Karnataka,Bengaluru,2022-10-07,Active,SME,123528.28,733
+1344,Vivek,Das,vivek.das1344@example.com,9992107522,India,Maharashtra,Pune,2023-01-22,Inactive,Retail,35716.13,865
+1345,Rahul,Reddy,rahul.reddy1345@example.com,9969315727,India,Delhi,New Delhi,2021-07-15,Active,Corporate,6568.37,863
+1346,Meera,Nair,meera.nair1346@example.com,9105566139,India,Telangana,Hyderabad,2024-07-22,Active,Corporate,9065.06,718
+1347,Aarav,Singh,aarav.singh1347@example.com,9892583206,India,Tamil Nadu,Chennai,2024-05-03,Active,Retail,34090.76,598
+1348,Rohit,Patel,rohit.patel1348@example.com,9251790864,India,Telangana,Hyderabad,2023-03-28,Active,SME,20425.9,519
+1349,Sneha,Das,sneha.das1349@example.com,9376938983,India,Karnataka,Bengaluru,2021-05-27,Active,Corporate,49188.33,744
+1350,Sai,Reddy,sai.reddy1350@example.com,9665535590,India,Maharashtra,Pune,2021-12-13,Inactive,SME,123416.02,861
+1351,Sneha,Joshi,sneha.joshi1351@example.com,9270335211,India,Telangana,Hyderabad,2022-05-13,Inactive,Retail,130444.1,869
+1352,Rahul,Sharma,rahul.sharma1352@example.com,9514770538,India,Karnataka,Bengaluru,2022-02-22,Active,Corporate,82771.21,768
+1353,Neha,Patel,neha.patel1353@example.com,9069804204,India,Karnataka,Bengaluru,2024-06-19,Active,Corporate,98558.92,454
+1354,Sai,Nair,sai.nair1354@example.com,9451046368,India,Telangana,Hyderabad,2022-10-09,Active,SME,80202.54,545
+1355,Ananya,Das,ananya.das1355@example.com,9780038457,India,Tamil Nadu,Chennai,2021-11-18,Active,SME,53435.05,770
+1356,Rahul,Verma,rahul.verma1356@example.com,9840460843,India,Karnataka,Bengaluru,2022-12-01,Inactive,SME,21451.84,823
+1357,Rohit,Das,rohit.das1357@example.com,9936392649,India,Maharashtra,Pune,2023-07-09,Active,Retail,98218.42,747
+1358,Vivek,Verma,vivek.verma1358@example.com,9248262925,India,Telangana,Hyderabad,2024-02-16,Active,SME,18639.71,612
+1359,Priya,Sharma,priya.sharma1359@example.com,9566474231,India,Karnataka,Bengaluru,2022-01-14,Active,SME,92925.03,760
+1360,Meera,Joshi,meera.joshi1360@example.com,9393305172,India,Delhi,New Delhi,2024-05-23,Active,SME,56719.95,886
+1361,Rohit,Gupta,rohit.gupta1361@example.com,9722330604,India,Tamil Nadu,Chennai,2022-04-01,Active,Retail,113908.71,483
+1362,Priya,Gupta,priya.gupta1362@example.com,9975736609,India,Tamil Nadu,Chennai,2022-10-03,Active,SME,86218.23,724
+1363,Vivek,Sharma,vivek.sharma1363@example.com,9817703886,India,Telangana,Hyderabad,2024-02-17,Active,SME,144426.25,547
+1364,Rahul,Gupta,rahul.gupta1364@example.com,9644726490,India,Delhi,New Delhi,2021-10-19,Active,SME,68303.02,819
+1365,Vivek,Reddy,vivek.reddy1365@example.com,9298266570,India,Karnataka,Bengaluru,2023-07-19,Active,SME,134473.44,682
+1366,Sai,Rao,sai.rao1366@example.com,9521117518,India,Tamil Nadu,Chennai,2023-11-14,Active,Retail,57423.12,644
+1367,Aarav,Patel,aarav.patel1367@example.com,9592222064,India,Maharashtra,Pune,2023-07-03,Active,Retail,18515.54,517
+1368,Ananya,Sharma,ananya.sharma1368@example.com,9940777809,India,Tamil Nadu,Chennai,2022-05-03,Active,SME,71881.09,659
+1369,Sneha,Reddy,sneha.reddy1369@example.com,9990384983,India,Telangana,Hyderabad,2022-01-14,Active,SME,53003.96,524
+1370,Aarav,Joshi,aarav.joshi1370@example.com,9945101622,India,Maharashtra,Pune,2024-06-05,Active,SME,89650.38,853
+1371,Vivek,Patel,vivek.patel1371@example.com,9795014556,India,Telangana,Hyderabad,2023-05-26,Inactive,Retail,44632.07,518
+1372,Sai,Rao,sai.rao1372@example.com,9586833901,India,Delhi,New Delhi,2024-07-12,Active,Retail,73065.78,802
+1373,Meera,Rao,meera.rao1373@example.com,9695489952,India,Delhi,New Delhi,2024-02-27,Active,SME,95146.78,702
+1374,Priya,Joshi,priya.joshi1374@example.com,9343010713,India,Delhi,New Delhi,2023-04-30,Active,Corporate,53097.86,862
+1375,Arjun,Verma,arjun.verma1375@example.com,9034414488,India,Maharashtra,Pune,2021-01-13,Active,Corporate,51862.88,820
+1376,Meera,Joshi,meera.joshi1376@example.com,9023557702,India,Tamil Nadu,Chennai,2021-11-15,Active,SME,134493.36,686
+1377,Rohit,Sharma,rohit.sharma1377@example.com,9849588039,India,Maharashtra,Pune,2022-12-26,Active,Retail,42788.54,465
+1378,Kiran,Nair,kiran.nair1378@example.com,9829962914,India,Maharashtra,Pune,2021-03-06,Active,Retail,75061.11,571
+1379,Kiran,Gupta,kiran.gupta1379@example.com,9438421503,India,Telangana,Hyderabad,2023-06-28,Active,Corporate,135838.41,528
+1380,Ananya,Singh,ananya.singh1380@example.com,9784521823,India,Telangana,Hyderabad,2023-07-30,Active,SME,18259.56,609
+1381,Aarav,Joshi,aarav.joshi1381@example.com,9157018409,India,Maharashtra,Pune,2024-08-01,Inactive,Corporate,30882.77,596
+1382,Rahul,Das,rahul.das1382@example.com,9571422410,India,Delhi,New Delhi,2024-02-21,Active,Retail,81836.78,731
+1383,Kiran,Rao,kiran.rao1383@example.com,9249321495,India,Delhi,New Delhi,2023-06-28,Active,Retail,71139.6,795
+1384,Aarav,Reddy,aarav.reddy1384@example.com,9601662997,India,Delhi,New Delhi,2022-12-30,Active,Retail,107221.9,793
+1385,Vivek,Reddy,vivek.reddy1385@example.com,9792171747,India,Tamil Nadu,Chennai,2022-04-20,Inactive,Retail,129303.35,765
+1386,Rahul,Singh,rahul.singh1386@example.com,9625577017,India,Telangana,Hyderabad,2022-12-21,Active,Retail,43056.35,628
+1387,Meera,Joshi,meera.joshi1387@example.com,9281615814,India,Delhi,New Delhi,2023-08-03,Active,Corporate,36547.72,574
+1388,Vivek,Patel,vivek.patel1388@example.com,9761539669,India,Maharashtra,Pune,2024-01-21,Active,Retail,99729.23,489
+1389,Neha,Joshi,neha.joshi1389@example.com,9719975817,India,Karnataka,Bengaluru,2022-09-23,Inactive,Retail,90140.62,800
+1390,Meera,Nair,meera.nair1390@example.com,9570132902,India,Karnataka,Bengaluru,2023-07-17,Active,Corporate,92720.25,678
+1391,Ananya,Verma,ananya.verma1391@example.com,9549465190,India,Delhi,New Delhi,2023-11-12,Active,Retail,128023.27,481
+1392,Kiran,Das,kiran.das1392@example.com,9008514036,India,Delhi,New Delhi,2023-03-19,Active,SME,58035.65,645
+1393,Rohit,Das,rohit.das1393@example.com,9327238656,India,Karnataka,Bengaluru,2022-08-14,Inactive,SME,19706.82,455
+1394,Sai,Sharma,sai.sharma1394@example.com,9276212679,India,Tamil Nadu,Chennai,2024-06-30,Active,SME,64194.58,869
+1395,Sneha,Nair,sneha.nair1395@example.com,9532690973,India,Delhi,New Delhi,2022-07-06,Active,SME,86876.5,467
+1396,Aarav,Joshi,aarav.joshi1396@example.com,9751971284,India,Tamil Nadu,Chennai,2023-11-25,Active,SME,14178.51,691
+1397,Arjun,Reddy,arjun.reddy1397@example.com,9894905807,India,Tamil Nadu,Chennai,2023-11-16,Inactive,SME,110338.37,665
+1398,Kiran,Rao,kiran.rao1398@example.com,9420949407,India,Delhi,New Delhi,2021-12-13,Active,SME,148564.36,864
+1399,Neha,Joshi,neha.joshi1399@example.com,9047128144,India,Karnataka,Bengaluru,2024-06-15,Active,Corporate,3116.25,507
+1400,Meera,Patel,meera.patel1400@example.com,9927524372,India,Delhi,New Delhi,2021-03-09,Active,Retail,145134.5,754
+1401,Priya,Gupta,priya.gupta1401@example.com,9663723950,India,Maharashtra,Pune,2021-08-26,Active,Corporate,60412.98,604
+1402,Sneha,Das,sneha.das1402@example.com,9366742860,India,Maharashtra,Pune,2023-07-09,Active,Corporate,144302.65,799
+1403,Aarav,Reddy,aarav.reddy1403@example.com,9856945441,India,Maharashtra,Pune,2024-09-02,Active,Corporate,116199.5,833
+1404,Ananya,Joshi,ananya.joshi1404@example.com,9385258001,India,Telangana,Hyderabad,2023-04-23,Active,Retail,103139.43,629
+1405,Ananya,Rao,ananya.rao1405@example.com,9430091093,India,Delhi,New Delhi,2024-07-30,Active,Retail,13871.57,759
+1406,Priya,Nair,priya.nair1406@example.com,9921244717,India,Maharashtra,Pune,2023-05-25,Active,SME,115712.2,615
+1407,Rahul,Patel,rahul.patel1407@example.com,9140665044,India,Karnataka,Bengaluru,2023-06-22,Active,Retail,91934.98,541
+1408,Arjun,Gupta,arjun.gupta1408@example.com,9128639174,India,Telangana,Hyderabad,2021-03-13,Active,SME,109404.23,847
+1409,Sneha,Sharma,sneha.sharma1409@example.com,9720064256,India,Delhi,New Delhi,2021-01-08,Active,Corporate,72242.77,656
+1410,Neha,Reddy,neha.reddy1410@example.com,9830671985,India,Maharashtra,Pune,2024-10-28,Active,Retail,95208.61,781
+1411,Sai,Singh,sai.singh1411@example.com,9851743280,India,Tamil Nadu,Chennai,2024-09-15,Active,SME,59125.6,504
+1412,Arjun,Singh,arjun.singh1412@example.com,9717320309,India,Karnataka,Bengaluru,2023-09-29,Active,SME,96867.74,705
+1413,Vivek,Gupta,vivek.gupta1413@example.com,9005050613,India,Delhi,New Delhi,2023-07-28,Inactive,SME,23194.09,746
+1414,Ananya,Reddy,ananya.reddy1414@example.com,9027079032,India,Telangana,Hyderabad,2021-12-19,Active,Corporate,123290.14,499
+1415,Sneha,Joshi,sneha.joshi1415@example.com,9291117993,India,Telangana,Hyderabad,2022-02-20,Active,SME,102081.28,616
+1416,Sai,Joshi,sai.joshi1416@example.com,9825309251,India,Telangana,Hyderabad,2022-07-15,Active,Corporate,26039.58,639
+1417,Vivek,Patel,vivek.patel1417@example.com,9739021962,India,Telangana,Hyderabad,2023-09-25,Active,Retail,27732.52,495
+1418,Neha,Joshi,neha.joshi1418@example.com,9467232487,India,Tamil Nadu,Chennai,2022-05-05,Inactive,SME,104059.36,755
+1419,Priya,Gupta,priya.gupta1419@example.com,9914560833,India,Telangana,Hyderabad,2023-12-22,Inactive,SME,54923.29,839
+1420,Vivek,Das,vivek.das1420@example.com,9373403127,India,Tamil Nadu,Chennai,2021-12-28,Active,Retail,9050.11,636
+1421,Rahul,Verma,rahul.verma1421@example.com,9645970108,India,Karnataka,Bengaluru,2021-11-20,Active,Corporate,77720.65,486
+1422,Ananya,Gupta,ananya.gupta1422@example.com,9995635315,India,Karnataka,Bengaluru,2021-07-20,Active,Corporate,130613.06,642
+1423,Ananya,Reddy,ananya.reddy1423@example.com,9797062397,India,Karnataka,Bengaluru,2023-03-05,Active,Corporate,108253.36,773
+1424,Kiran,Rao,kiran.rao1424@example.com,9352090421,India,Tamil Nadu,Chennai,2023-07-29,Active,Corporate,33758.18,601
+1425,Meera,Patel,meera.patel1425@example.com,9929831687,India,Karnataka,Bengaluru,2024-04-26,Active,Corporate,42596.46,823
+1426,Rohit,Verma,rohit.verma1426@example.com,9356939290,India,Tamil Nadu,Chennai,2021-04-01,Active,Corporate,110287.97,708
+1427,Aarav,Nair,aarav.nair1427@example.com,9867177318,India,Telangana,Hyderabad,2023-04-13,Inactive,Retail,54402.45,572
+1428,Arjun,Reddy,arjun.reddy1428@example.com,9074279907,India,Tamil Nadu,Chennai,2021-10-11,Inactive,Corporate,28556.91,896
+1429,Kiran,Gupta,kiran.gupta1429@example.com,9016580464,India,Delhi,New Delhi,2024-01-16,Active,Retail,118366.08,491
+1430,Meera,Singh,meera.singh1430@example.com,9085016579,India,Telangana,Hyderabad,2023-01-19,Active,SME,84259.78,484
+1431,Vivek,Verma,vivek.verma1431@example.com,9253817933,India,Maharashtra,Pune,2022-12-24,Inactive,SME,102353.78,591
+1432,Aarav,Reddy,aarav.reddy1432@example.com,9557788178,India,Delhi,New Delhi,2022-08-22,Active,Corporate,120185.68,804
+1433,Sai,Verma,sai.verma1433@example.com,9711624112,India,Maharashtra,Pune,2021-08-18,Active,Corporate,23424.21,554
+1434,Vivek,Sharma,vivek.sharma1434@example.com,9468275670,India,Maharashtra,Pune,2022-01-23,Active,Retail,125407.18,716
+1435,Arjun,Singh,arjun.singh1435@example.com,9695579887,India,Tamil Nadu,Chennai,2022-09-15,Active,Corporate,26588.83,583
+1436,Ananya,Gupta,ananya.gupta1436@example.com,9540254729,India,Karnataka,Bengaluru,2024-01-02,Active,Retail,126060.42,804
+1437,Arjun,Patel,arjun.patel1437@example.com,9231059274,India,Maharashtra,Pune,2022-01-13,Active,SME,6168.67,612
+1438,Kiran,Patel,kiran.patel1438@example.com,9578284106,India,Tamil Nadu,Chennai,2021-10-25,Inactive,Corporate,24251.94,828
+1439,Vivek,Das,vivek.das1439@example.com,9547492975,India,Telangana,Hyderabad,2023-09-08,Inactive,Retail,102023.24,509
+1440,Rahul,Sharma,rahul.sharma1440@example.com,9693751509,India,Karnataka,Bengaluru,2024-04-09,Active,Corporate,30161.64,492
+1441,Vivek,Gupta,vivek.gupta1441@example.com,9186375998,India,Telangana,Hyderabad,2024-09-27,Active,Retail,107678.6,668
+1442,Kiran,Nair,kiran.nair1442@example.com,9504554781,India,Karnataka,Bengaluru,2023-06-29,Active,Corporate,120749.14,597
+1443,Priya,Nair,priya.nair1443@example.com,9629912347,India,Delhi,New Delhi,2022-11-18,Active,SME,113660.99,495
+1444,Aarav,Nair,aarav.nair1444@example.com,9462879232,India,Tamil Nadu,Chennai,2022-08-16,Active,Retail,123597.08,604
+1445,Meera,Rao,meera.rao1445@example.com,9787300244,India,Tamil Nadu,Chennai,2021-09-12,Active,Corporate,63156.36,701
+1446,Neha,Verma,neha.verma1446@example.com,9014719597,India,Delhi,New Delhi,2023-06-13,Inactive,SME,103201.01,805
+1447,Sai,Singh,sai.singh1447@example.com,9890429025,India,Tamil Nadu,Chennai,2021-10-05,Active,Retail,41627.88,664
+1448,Arjun,Singh,arjun.singh1448@example.com,9044818321,India,Delhi,New Delhi,2021-12-09,Active,Corporate,124196.48,800
+1449,Rahul,Rao,rahul.rao1449@example.com,9518952028,India,Maharashtra,Pune,2023-02-03,Active,Corporate,51706.65,533
+1450,Sai,Verma,sai.verma1450@example.com,9283389888,India,Telangana,Hyderabad,2023-05-05,Active,Retail,18368.28,517
+1451,Aarav,Gupta,aarav.gupta1451@example.com,9545279852,India,Maharashtra,Pune,2021-02-28,Active,Retail,34131.32,888
+1452,Neha,Patel,neha.patel1452@example.com,9342321611,India,Telangana,Hyderabad,2023-09-19,Active,Retail,30256.3,466
+1453,Arjun,Das,arjun.das1453@example.com,9907140140,India,Telangana,Hyderabad,2021-09-11,Inactive,Retail,88552.85,552
+1454,Priya,Singh,priya.singh1454@example.com,9012495528,India,Delhi,New Delhi,2022-05-11,Active,Retail,15766.75,746
+1455,Aarav,Das,aarav.das1455@example.com,9334280138,India,Tamil Nadu,Chennai,2023-01-21,Active,Retail,66510.21,504
+1456,Priya,Singh,priya.singh1456@example.com,9663836151,India,Tamil Nadu,Chennai,2021-08-14,Active,Corporate,114578.78,810
+1457,Rahul,Das,rahul.das1457@example.com,9015716479,India,Maharashtra,Pune,2023-06-29,Active,Corporate,44297.81,887
+1458,Rohit,Verma,rohit.verma1458@example.com,9175207167,India,Delhi,New Delhi,2024-09-10,Active,Retail,22361.77,655
+1459,Neha,Joshi,neha.joshi1459@example.com,9121535396,India,Telangana,Hyderabad,2022-04-22,Inactive,SME,75367.41,841
+1460,Neha,Joshi,neha.joshi1460@example.com,9946579678,India,Maharashtra,Pune,2021-10-29,Active,Retail,19206.32,700
+1461,Sneha,Verma,sneha.verma1461@example.com,9201017026,India,Delhi,New Delhi,2024-10-23,Active,Corporate,93673.05,499
+1462,Sai,Das,sai.das1462@example.com,9773477848,India,Maharashtra,Pune,2024-01-13,Active,Retail,148616.02,900
+1463,Sai,Nair,sai.nair1463@example.com,9756770028,India,Maharashtra,Pune,2021-12-03,Active,Retail,47556.49,649
+1464,Sneha,Reddy,sneha.reddy1464@example.com,9978897782,India,Delhi,New Delhi,2021-04-25,Active,Corporate,89065.72,643
+1465,Meera,Singh,meera.singh1465@example.com,9450090255,India,Delhi,New Delhi,2021-02-25,Active,SME,51847.22,499
+1466,Rohit,Singh,rohit.singh1466@example.com,9565033349,India,Telangana,Hyderabad,2021-05-15,Inactive,Retail,51301.54,460
+1467,Vivek,Singh,vivek.singh1467@example.com,9076986407,India,Delhi,New Delhi,2021-02-15,Inactive,Corporate,85982.68,615
+1468,Meera,Reddy,meera.reddy1468@example.com,9713578529,India,Maharashtra,Pune,2023-01-15,Inactive,Retail,75045.81,883
+1469,Sai,Das,sai.das1469@example.com,9344049639,India,Telangana,Hyderabad,2024-03-30,Active,Corporate,41731.37,740
+1470,Vivek,Gupta,vivek.gupta1470@example.com,9635148468,India,Maharashtra,Pune,2022-02-14,Active,Corporate,94119.62,682
+1471,Arjun,Das,arjun.das1471@example.com,9208297374,India,Delhi,New Delhi,2024-06-12,Inactive,Corporate,140260.75,822
+1472,Arjun,Sharma,arjun.sharma1472@example.com,9835723246,India,Tamil Nadu,Chennai,2022-10-15,Inactive,Retail,95455.2,883
+1473,Rohit,Rao,rohit.rao1473@example.com,9424936312,India,Karnataka,Bengaluru,2021-02-26,Active,Corporate,70159.8,736
+1474,Rohit,Nair,rohit.nair1474@example.com,9032420448,India,Karnataka,Bengaluru,2024-08-12,Inactive,SME,73390.45,460
+1475,Aarav,Reddy,aarav.reddy1475@example.com,9594165162,India,Karnataka,Bengaluru,2021-08-18,Active,SME,140007.38,717
+1476,Arjun,Joshi,arjun.joshi1476@example.com,9847139155,India,Delhi,New Delhi,2023-03-10,Inactive,SME,36154.77,666
+1477,Ananya,Patel,ananya.patel1477@example.com,9123476490,India,Tamil Nadu,Chennai,2023-12-29,Active,Retail,48157.0,666
+1478,Sneha,Verma,sneha.verma1478@example.com,9425754090,India,Telangana,Hyderabad,2024-10-07,Active,SME,58318.84,777
+1479,Neha,Singh,neha.singh1479@example.com,9183760644,India,Telangana,Hyderabad,2022-04-28,Active,Retail,137467.73,773
+1480,Kiran,Nair,kiran.nair1480@example.com,9041776561,India,Karnataka,Bengaluru,2022-06-19,Active,Corporate,63709.71,823
+1481,Vivek,Singh,vivek.singh1481@example.com,9700272063,India,Maharashtra,Pune,2022-10-05,Active,Retail,24515.54,714
+1482,Neha,Patel,neha.patel1482@example.com,9965772429,India,Maharashtra,Pune,2022-08-01,Active,Corporate,55772.33,651
+1483,Rohit,Joshi,rohit.joshi1483@example.com,9300893173,India,Maharashtra,Pune,2021-12-12,Active,SME,64906.6,583
+1484,Priya,Reddy,priya.reddy1484@example.com,9529108677,India,Telangana,Hyderabad,2022-04-05,Active,Retail,141961.8,866
+1485,Rahul,Rao,rahul.rao1485@example.com,9762639343,India,Tamil Nadu,Chennai,2022-01-05,Active,Retail,5287.19,584
+1486,Ananya,Joshi,ananya.joshi1486@example.com,9735971072,India,Maharashtra,Pune,2023-03-26,Active,SME,58140.82,666
+1487,Neha,Joshi,neha.joshi1487@example.com,9411800537,India,Maharashtra,Pune,2024-05-26,Inactive,SME,106725.33,864
+1488,Aarav,Sharma,aarav.sharma1488@example.com,9489646528,India,Telangana,Hyderabad,2024-04-03,Active,Retail,76058.26,623
+1489,Sneha,Patel,sneha.patel1489@example.com,9158624150,India,Karnataka,Bengaluru,2023-10-20,Inactive,Corporate,112425.68,670
+1490,Rahul,Rao,rahul.rao1490@example.com,9948562572,India,Delhi,New Delhi,2024-09-08,Active,Corporate,8930.11,526
+1491,Aarav,Verma,aarav.verma1491@example.com,9207427617,India,Telangana,Hyderabad,2023-06-24,Active,SME,84567.32,684
+1492,Sneha,Reddy,sneha.reddy1492@example.com,9215134228,India,Maharashtra,Pune,2024-02-28,Inactive,SME,32647.03,452
+1493,Vivek,Joshi,vivek.joshi1493@example.com,9261371504,India,Telangana,Hyderabad,2023-03-19,Active,Retail,125709.6,528
+1494,Aarav,Reddy,aarav.reddy1494@example.com,9777490509,India,Tamil Nadu,Chennai,2022-10-28,Inactive,SME,136124.88,858
+1495,Meera,Patel,meera.patel1495@example.com,9304501896,India,Telangana,Hyderabad,2023-03-28,Active,Retail,144792.35,893
+1496,Rohit,Reddy,rohit.reddy1496@example.com,9032664214,India,Tamil Nadu,Chennai,2023-06-05,Active,Corporate,135656.41,758
+1497,Priya,Singh,priya.singh1497@example.com,9158377674,India,Delhi,New Delhi,2024-05-14,Active,Corporate,121838.16,764
+1498,Priya,Nair,priya.nair1498@example.com,9610857327,India,Delhi,New Delhi,2024-07-13,Active,Retail,44314.75,673
+1499,Sai,Gupta,sai.gupta1499@example.com,9422438649,India,Telangana,Hyderabad,2024-02-03,Active,Retail,77498.76,711
