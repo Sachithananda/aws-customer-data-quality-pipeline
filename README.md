@@ -5,7 +5,6 @@
 ![AWS Glue](https://img.shields.io/badge/AWS-Glue-blue)
 ![Amazon Athena](https://img.shields.io/badge/Amazon-Athena-green)
 ![SQL](https://img.shields.io/badge/SQL-Athena-yellow)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
 ---
 
@@ -173,55 +172,6 @@ GROUP BY COALESCE(customer_type,'Missing');
 
 ---
 
-# 📸 Project Screenshots
-
-## Amazon S3
-
-Add screenshot here
-
----
-
-## AWS Glue Database
-
-Add screenshot here
-
----
-
-## AWS Glue Crawler
-
-Add screenshot here
-
----
-
-## AWS Glue Table
-
-Add screenshot here
-
----
-
-## Amazon Athena Query
-
-Add screenshot here
-
----
-
-## Duplicate Detection
-
-Add screenshot here
-
----
-
-## Missing Email Validation
-
-Add screenshot here
-
----
-
-## Revenue Analysis
-
-Add screenshot here
-
----
 
 # 📈 Learning Outcomes
 
