@@ -1,0 +1,10 @@
+SELECT * FROM customer_raw_data LIMIT 10;
+SELECT COUNT(*) AS total_records FROM customer_raw_data;
+SELECT status,COUNT(*) AS customer_count FROM customer_raw_data GROUP BY status;
+SELECT COALESCE(customer_type,'Missing') AS customer_type,SUM(revenue) AS total_revenue FROM customer_raw_data GROUP BY COALESCE(customer_type,'Missing');
+SELECT customer_id,COUNT(*) AS duplicate_count FROM customer_raw_data GROUP BY customer_id HAVING COUNT(*)>1;
+SELECT * FROM customer_raw_data WHERE email IS NULL;
+SELECT email,COUNT(*) AS duplicate_count FROM customer_raw_data GROUP BY email HAVING COUNT(*)>1;
+SELECT * FROM customer_raw_data WHERE revenue<0;
+SELECT * FROM customer_raw_data WHERE customer_type IS NULL;
+SELECT ROUND(AVG(credit_score),2) AS average_credit_score FROM customer_raw_data;
